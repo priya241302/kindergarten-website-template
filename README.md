@@ -1,9 +1,4 @@
 # kindergarten-website-template
-
-
-
-
-
 Hello. My name is Haripriya. I am an AWS Cloud Enthusiast and am writing this blog as a part of the #10weeksofcloudops challenge, created by Piyush Sachdeva, which I recently came across. This is the #week1 challenge, which is to host a static website in the cloud, using the CICD Pipeline.
 Project 1:
 The project involves hosting a static website on AWS S3, utilizing AWS CloudFront as a Content Delivery Network (CDN) to enhance website performance, creating a Continuous Integration and Continuous Deployment (CI/CD) pipeline for automated deployments, and enabling SSL with a custom domain name for secure connections.
@@ -16,10 +11,11 @@ The project involves hosting a static website on AWS S3, utilizing AWS CloudFron
 Services I have used
 1. Version Control: GitHub 2. CICD Pipeline: AWS Code Pipeline 3. Static Website hosting: Amazon S3, Amazon Route53, Amazon CloudFront, AWS Certificate Manager.
 Architecture Diagram:
+
 ![image](https://github.com/priya241302/kindergarten-website-template/assets/119650186/740a5f8f-dd78-41e1-9553-1d6a82f6745c)
 
 All you need to start building this project:
-1. AWS Account
+1 .AWS Account
 2 .GitHub Account
 3 .A Domain( from Route53, GoDaddy, Hostinger etc)
 4.Basic Website/HTML Template
