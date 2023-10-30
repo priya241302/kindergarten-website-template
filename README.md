@@ -14,14 +14,23 @@ The project involves hosting a static website on AWS S3, utilizing AWS CloudFron
 5. Amazon CloudFront is a fast and secure content delivery network (CDN) service provided by AWS. It distributes content globally, reducing latency and improving the performance of websites, applications, and media by caching data at edge locations closer to users.
 6. AWS Certificate Manager (ACM) is a managed service provided by Amazon Web Services (AWS) that allows you to easily provision, manage, and deploy SSL/TLS certificates for use with AWS services and external resources.
 Services I have used
-1. Version Control: GitHub 2. CICD Pipeline: AWS Code Pipeline 3. Static Website hosting: Amazon S3, Amazon Route53, Amazon CloudFront, AWS Certificate Manager. Architecture Diagram: 
+1. Version Control: GitHub 2. CICD Pipeline: AWS Code Pipeline 3. Static Website hosting: Amazon S3, Amazon Route53, Amazon CloudFront, AWS Certificate Manager.
+Architecture Diagram:
+![image](https://github.com/priya241302/kindergarten-website-template/assets/119650186/740a5f8f-dd78-41e1-9553-1d6a82f6745c)
 
 All you need to start building this project:
 1. AWS Account
 2 .GitHub Account
 3 .A Domain( from Route53, GoDaddy, Hostinger etc)
 4.Basic Website/HTML Template
-Project Steps: ✅ Step 1:Creating S3 bucket ✅ Step 2: Create a Hosted Zone [ You need to replace the NS records from your domain provider with the NS records from your hosted zone after creating it ] ✅ Step 3: Request / Import a Certificate (SSL/TLS) for secure HTTP communication for your domain and all subdomain from Amazon Certificate Manager (ACM) ✅ Step 4:Create a CloudFront Distribution ✅ Step 5:Connect Cloudfront distribution Domain name ✅ Step 6:AWS Code Pipeline Step 1: Create an S3 Bucket from which the static files will be hosted on our personal domain using Cloudfront and Route53. Step 1.1: Log into AWS Management Console. Search for Amazon S3 in the search box. Click on create bucket. Step 1.2: The bucket name will be www.<domainname>. Here it is www.priyagh13.tk any region. I will be going for us-east-1.
+Project Steps:
+✅ Step 1:Creating S3 bucket
+✅ Step 2: Create a Hosted Zone [ You need to replace the NS records from your domain provider with the NS records from your hosted zone after creating it ]
+✅ Step 3: Request / Import a Certificate (SSL/TLS) for secure HTTP communication for your domain and all subdomain from Amazon Certificate Manager (ACM)
+✅ Step 4:Create a CloudFront Distribution
+✅ Step 5:Connect Cloudfront distribution Domain name
+✅ Step 6:AWS Code Pipeline
+Step 1: Create an S3 Bucket from which the static files will be hosted on our personal domain using Cloudfront and Route53. Step 1.1: Log into AWS Management Console. Search for Amazon S3 in the search box. Click on create bucket. Step 1.2: The bucket name will be www.<domainname>. Here it is www.priyagh13.tk any region. I will be going for us-east-1.
 Step 1.3: Leave the other settings to Default, scroll down and click on create bucket.
 Step 1.4: Click on the bucket name. Go to the Properties tab and scroll down. Click on the edit button for Static Web Hosting.
 Step 1.5: Now change it to enable. Place the name of the index document, which we will upload in s3 for static web hosting later. Usually, it is index .html.
