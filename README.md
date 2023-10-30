@@ -72,8 +72,9 @@ Select your Bucket URL.
 ![image](https://github.com/priya241302/kindergarten-website-template/assets/119650186/10bc3666-62c9-44ee-94e2-7bfea23fbcd3)
 
   * Step 4.3- Scroll down to the viewer Protocol policy and choose” Redirect HTTP over HTTPS”
-<img width="329" alt="image" src="https://github.com/priya241302/kindergarten-website-template/assets/119650186/cf0133ea-7a0c-4a2e-b27e-9ae3b7fd5b35">
-
+  <img width="329" alt="image" 
+ src="https://github.com/priya241302/kindergarten-website- template/assets/119650186/cf0133ea-7a0c-4a2e-b27e-9ae3b7fd5b35">
+ 
 
   * Step 4.4: Enable Security Protection under WAF. Scroll down to settings. Add the alternate domain name as “priyagh13.tk.”
 Add the SSL Certificate from the Dropdown.
