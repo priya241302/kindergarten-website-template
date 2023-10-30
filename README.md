@@ -122,8 +122,8 @@ Final Step of Action: Once all the stages turn green, go to your Static Website
 Thank you for joining me on this exciting journey through this blog I hope this helps you to build this project.
 Also Make sure you clean up your AWS resources, after completing the project, to save costs.
 **References:**
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
-https://www.youtube.com/playlist?list=PLl4APkPHzsUUc8HOEIwfB3Z2uxRv2SKOG
+* https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
+* https://www.youtube.com/playlist?list=PLl4APkPHzsUUc8HOEIwfB3Z2uxRv2SKOG
 
 
 
