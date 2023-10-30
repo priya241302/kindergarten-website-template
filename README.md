@@ -9,8 +9,11 @@ The project involves hosting a static website on AWS S3, utilizing AWS CloudFron
 5. Amazon CloudFront is a fast and secure content delivery network (CDN) service provided by AWS. It distributes content globally, reducing latency and improving the performance of websites, applications, and media by caching data at edge locations closer to users.
 6. AWS Certificate Manager (ACM) is a managed service provided by Amazon Web Services (AWS) that allows you to easily provision, manage, and deploy SSL/TLS certificates for use with AWS services and external resources.
 Services I have used
-1. Version Control: GitHub 2. CICD Pipeline: AWS Code Pipeline 3. Static Website hosting: Amazon S3, Amazon Route53, Amazon CloudFront, AWS Certificate Manager.
-Architecture Diagram:
+* Version Control: GitHub
+* CICD Pipeline: AWS Code Pipeline
+* Static Website hosting: Amazon S3, Amazon Route53, Amazon CloudFront, AWS Certificate Manager.
+   
+**Architecture Diagram:**
 
 ![image](https://github.com/priya241302/kindergarten-website-template/assets/119650186/740a5f8f-dd78-41e1-9553-1d6a82f6745c)
 
@@ -118,7 +121,7 @@ Final Step of Action: Once all the stages turn green, go to your Static Website
 
 Thank you for joining me on this exciting journey through this blog I hope this helps you to build this project.
 Also Make sure you clean up your AWS resources, after completing the project, to save costs.
-References:
+**References:**
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
 https://www.youtube.com/playlist?list=PLl4APkPHzsUUc8HOEIwfB3Z2uxRv2SKOG
 
